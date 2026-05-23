@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: "FDA Strategy Triples: A curated dataset of gene–variant–drug–target–mechanism associations for rare diseases"
+message: "If you use this dataset or software, please cite it using the metadata in this file."
+type: dataset
+authors:
+  - family-names: Shenoy
+    given-names: Amit
+    email: shenoy.am@husky.neu.edu
+    orcid: ""
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.PLACEHOLDER
+    description: >
+      Placeholder DOI — will be updated when the dataset is archived on Zenodo.
+      Do not use this DOI for citation until confirmed.
+  - type: url
+    value: https://github.com/ashenoy00000/fda-strategy-triples
+    description: GitHub repository
+repository-code: https://github.com/ashenoy00000/fda-strategy-triples
+url: https://github.com/ashenoy00000/fda-strategy-triples
+repository: https://github.com/ashenoy00000/fda-strategy-triples
+abstract: >
+  A curated, human-reviewed dataset of (gene → variant_context → FDA-approved drug →
+  molecular_target → mechanism) tuples for rare diseases. Each record is extracted
+  from FDA Structured Product Labels via Claude (Anthropic), cross-validated against
+  ChEMBL and DrugBank, and signed off by a domain expert before inclusion in the
+  validated dataset. Version 0.1.0 covers 10 validated records across SMA, cystic
+  fibrosis, Fabry disease, hATTR amyloidosis, ALS, sickle cell disease, beta-thalassemia,
+  acute hepatic porphyria, progeria, and hypercholesterolaemia.
+keywords:
+  - rare disease
+  - FDA
+  - drug mechanism
+  - pharmacogenomics
+  - antisense oligonucleotide
+  - siRNA
+  - gene therapy
+  - enzyme replacement therapy
+  - CFTR modulator
+  - dataset
+  - bioinformatics
+license: CC-BY-4.0
+date-released: "2026-05-22"
+version: 0.1.0

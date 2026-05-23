@@ -1,0 +1,504 @@
+[
+  {
+    "drug_name_generic": "nusinersen",
+    "drug_name_brand": "Spinraza",
+    "chembl_id": "CHEMBL1950026",
+    "drugbank_id": "DB11945",
+    "mechanism_hint": "ASO",
+    "gene_hints": ["SMN1", "SMN2"],
+    "is_investigational": false,
+    "notes": "First FDA-approved therapy for SMA (2016-12-23). 2'-MOE ASO targeting ISS-N1 in SMN2 intron 7."
+  },
+  {
+    "drug_name_generic": "eteplirsen",
+    "drug_name_brand": "Exondys 51",
+    "chembl_id": "CHEMBL3137309",
+    "drugbank_id": "DB11948",
+    "mechanism_hint": "ASO",
+    "gene_hints": ["DMD"],
+    "is_investigational": false,
+    "notes": "Phosphorodiamidate morpholino ASO; exon 51 skipping for DMD amenable mutations. Accelerated approval 2016-09-19."
+  },
+  {
+    "drug_name_generic": "golodirsen",
+    "drug_name_brand": "Vyondys 53",
+    "chembl_id": "CHEMBL4298048",
+    "drugbank_id": "DB15578",
+    "mechanism_hint": "ASO",
+    "gene_hints": ["DMD"],
+    "is_investigational": false,
+    "notes": "PMO ASO; exon 53 skipping for DMD. Accelerated approval 2019-12-12."
+  },
+  {
+    "drug_name_generic": "casimersen",
+    "drug_name_brand": "Amondys 45",
+    "chembl_id": null,
+    "drugbank_id": "DB16217",
+    "mechanism_hint": "ASO",
+    "gene_hints": ["DMD"],
+    "is_investigational": false,
+    "notes": "PMO ASO; exon 45 skipping for DMD. Accelerated approval 2021-02-25."
+  },
+  {
+    "drug_name_generic": "inotersen",
+    "drug_name_brand": "Tegsedi",
+    "chembl_id": "CHEMBL4298118",
+    "drugbank_id": "DB13143",
+    "mechanism_hint": "ASO",
+    "gene_hints": ["TTR"],
+    "is_investigational": false,
+    "notes": "2'-MOE/PS ASO targeting TTR mRNA; approved for hATTR amyloidosis with polyneuropathy 2018-10-05."
+  },
+  {
+    "drug_name_generic": "volanesorsen",
+    "drug_name_brand": "Waylivra",
+    "chembl_id": "CHEMBL3137319",
+    "drugbank_id": "DB11974",
+    "mechanism_hint": "ASO",
+    "gene_hints": ["APOC3"],
+    "is_investigational": false,
+    "notes": "2'-MOE/PS ASO targeting APOC3 mRNA; FDA approved 2023 for familial partial lipodystrophy (FPL). EU approval for FCS."
+  },
+  {
+    "drug_name_generic": "tofersen",
+    "drug_name_brand": "Qalsody",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "ASO",
+    "gene_hints": ["SOD1"],
+    "is_investigational": false,
+    "notes": "2'-MOE/PS ASO targeting SOD1 mRNA; accelerated approval 2023-04-25 for ALS with SOD1 mutation."
+  },
+  {
+    "drug_name_generic": "eplontersen",
+    "drug_name_brand": "Wainua",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "ASO",
+    "gene_hints": ["TTR"],
+    "is_investigational": false,
+    "notes": "GalNAc-conjugated ASO targeting hepatic TTR; approved 2023-12-21 for hATTR amyloidosis with polyneuropathy."
+  },
+  {
+    "drug_name_generic": "patisiran",
+    "drug_name_brand": "Onpattro",
+    "chembl_id": "CHEMBL4523395",
+    "drugbank_id": "DB13874",
+    "mechanism_hint": "siRNA",
+    "gene_hints": ["TTR"],
+    "is_investigational": false,
+    "notes": "LNP-formulated siRNA targeting TTR; first RNAi therapeutic FDA-approved (2018-08-10) for hATTR polyneuropathy."
+  },
+  {
+    "drug_name_generic": "givosiran",
+    "drug_name_brand": "Givlaari",
+    "chembl_id": "CHEMBL4523416",
+    "drugbank_id": "DB15685",
+    "mechanism_hint": "siRNA",
+    "gene_hints": ["ALAS1"],
+    "is_investigational": false,
+    "notes": "GalNAc-siRNA targeting ALAS1 mRNA in hepatocytes; approved 2019-11-20 for acute hepatic porphyria (AHP)."
+  },
+  {
+    "drug_name_generic": "lumasiran",
+    "drug_name_brand": "Oxlumo",
+    "chembl_id": null,
+    "drugbank_id": "DB16268",
+    "mechanism_hint": "siRNA",
+    "gene_hints": ["HAO1", "AGXT"],
+    "is_investigational": false,
+    "notes": "GalNAc-siRNA targeting HAO1 (glycolate oxidase); approved 2020-11-23 for primary hyperoxaluria type 1 (PH1)."
+  },
+  {
+    "drug_name_generic": "inclisiran",
+    "drug_name_brand": "Leqvio",
+    "chembl_id": "CHEMBL4297972",
+    "drugbank_id": "DB16045",
+    "mechanism_hint": "siRNA",
+    "gene_hints": ["PCSK9"],
+    "is_investigational": false,
+    "notes": "GalNAc-siRNA targeting PCSK9 mRNA; approved 2021-12-22 for heterozygous familial hypercholesterolemia and clinical ASCVD."
+  },
+  {
+    "drug_name_generic": "vutrisiran",
+    "drug_name_brand": "Amvuttra",
+    "chembl_id": null,
+    "drugbank_id": "DB16616",
+    "mechanism_hint": "siRNA",
+    "gene_hints": ["TTR"],
+    "is_investigational": false,
+    "notes": "GalNAc-siRNA targeting TTR; approved 2022-06-13 for hATTR amyloidosis with polyneuropathy. SC quarterly dosing."
+  },
+  {
+    "drug_name_generic": "fitusiran",
+    "drug_name_brand": "Alhemo",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "siRNA",
+    "gene_hints": ["SERPINC1"],
+    "is_investigational": false,
+    "notes": "GalNAc-siRNA targeting antithrombin (SERPINC1); approved 2023-03-28 for hemophilia A and B (with and without inhibitors)."
+  },
+  {
+    "drug_name_generic": "ivacaftor",
+    "drug_name_brand": "Kalydeco",
+    "chembl_id": "CHEMBL2010601",
+    "drugbank_id": "DB08820",
+    "mechanism_hint": "modulator",
+    "gene_hints": ["CFTR"],
+    "is_investigational": false,
+    "notes": "CFTR potentiator; approved 2012-01-31 for CF patients ≥2y with G551D or other responsive gating/residual-function mutations."
+  },
+  {
+    "drug_name_generic": "lumacaftor/ivacaftor",
+    "drug_name_brand": "Orkambi",
+    "chembl_id": null,
+    "drugbank_id": "DB11712",
+    "mechanism_hint": "modulator",
+    "gene_hints": ["CFTR"],
+    "is_investigational": false,
+    "notes": "CFTR corrector (lumacaftor) + potentiator (ivacaftor) combination; approved 2015-07-02 for CF F508del homozygous."
+  },
+  {
+    "drug_name_generic": "elexacaftor/tezacaftor/ivacaftor",
+    "drug_name_brand": "Trikafta",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "modulator",
+    "gene_hints": ["CFTR"],
+    "is_investigational": false,
+    "notes": "Triple CFTR modulator (next-gen corrector + corrector + potentiator); approved 2019-10-21 for CF with ≥1 F508del allele."
+  },
+  {
+    "drug_name_generic": "onasemnogene abeparvovec",
+    "drug_name_brand": "Zolgensma",
+    "chembl_id": null,
+    "drugbank_id": "DB15779",
+    "mechanism_hint": "gene_therapy",
+    "gene_hints": ["SMN1"],
+    "is_investigational": false,
+    "notes": "AAV9-delivered functional SMN1 transgene; approved 2019-05-24 for SMA in patients <2y with biallelic SMN1 loss."
+  },
+  {
+    "drug_name_generic": "betibeglogene autotemcel",
+    "drug_name_brand": "Zynteglo",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "gene_therapy",
+    "gene_hints": ["HBB"],
+    "is_investigational": false,
+    "notes": "Lentiviral gene therapy adding functional βA-T87Q-globin in autologous HSCs; approved 2022-08-17 for transfusion-dependent beta-thalassemia."
+  },
+  {
+    "drug_name_generic": "exagamglogene autotemcel",
+    "drug_name_brand": "Casgevy",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "gene_therapy",
+    "gene_hints": ["BCL11A", "HBB"],
+    "is_investigational": false,
+    "notes": "CRISPR-Cas9 editing of BCL11A erythroid enhancer in autologous HSCs, derepressing HbF. First CRISPR therapy FDA-approved 2023-12-08 (SCD) and 2024-01-16 (TDT)."
+  },
+  {
+    "drug_name_generic": "lovotibeglogene autotemcel",
+    "drug_name_brand": "Lyfgenia",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "gene_therapy",
+    "gene_hints": ["HBB"],
+    "is_investigational": false,
+    "notes": "Lentiviral gene therapy with anti-sickling HbAT87Q-globin in autologous HSCs; approved 2023-12-08 for SCD."
+  },
+  {
+    "drug_name_generic": "delandistrogene moxeparvovec",
+    "drug_name_brand": "Elevidys",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "gene_therapy",
+    "gene_hints": ["DMD"],
+    "is_investigational": false,
+    "notes": "AAVrh74-delivered micro-dystrophin transgene; accelerated approval 2023-06-22 for ambulatory DMD patients 4-5y with confirmed DMD mutation."
+  },
+  {
+    "drug_name_generic": "alglucosidase alfa",
+    "drug_name_brand": "Myozyme",
+    "chembl_id": "CHEMBL1201748",
+    "drugbank_id": "DB01261",
+    "mechanism_hint": "enzyme_replacement",
+    "gene_hints": ["GAA"],
+    "is_investigational": false,
+    "notes": "Recombinant acid alpha-glucosidase; approved 2006-04-28 for Pompe disease. Lumizyme approved 2010 for late-onset Pompe in patients ≥8y."
+  },
+  {
+    "drug_name_generic": "avalglucosidase alfa",
+    "drug_name_brand": "Nexviazyme",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "enzyme_replacement",
+    "gene_hints": ["GAA"],
+    "is_investigational": false,
+    "notes": "High-M6P recombinant GAA with enhanced lysosomal targeting; approved 2021-08-06 for late-onset Pompe disease."
+  },
+  {
+    "drug_name_generic": "agalsidase beta",
+    "drug_name_brand": "Fabrazyme",
+    "chembl_id": "CHEMBL1201612",
+    "drugbank_id": "DB00070",
+    "mechanism_hint": "enzyme_replacement",
+    "gene_hints": ["GLA"],
+    "is_investigational": false,
+    "notes": "Recombinant human alpha-galactosidase A; approved 2003-04-24 for Fabry disease."
+  },
+  {
+    "drug_name_generic": "pegunigalsidase alfa",
+    "drug_name_brand": "Elfabrio",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "enzyme_replacement",
+    "gene_hints": ["GLA"],
+    "is_investigational": false,
+    "notes": "PEGylated recombinant alpha-galactosidase A dimer with extended half-life; approved 2023-05-09 for Fabry disease."
+  },
+  {
+    "drug_name_generic": "laronidase",
+    "drug_name_brand": "Aldurazyme",
+    "chembl_id": "CHEMBL1201579",
+    "drugbank_id": "DB05603",
+    "mechanism_hint": "enzyme_replacement",
+    "gene_hints": ["IDUA"],
+    "is_investigational": false,
+    "notes": "Recombinant human alpha-L-iduronidase; approved 2003-04-30 for MPS I (Hurler, Hurler-Scheie, Scheie syndromes)."
+  },
+  {
+    "drug_name_generic": "idursulfase",
+    "drug_name_brand": "Elaprase",
+    "chembl_id": "CHEMBL1201613",
+    "drugbank_id": "DB01271",
+    "mechanism_hint": "enzyme_replacement",
+    "gene_hints": ["IDS"],
+    "is_investigational": false,
+    "notes": "Recombinant human iduronate-2-sulfatase; approved 2006-07-24 for MPS II (Hunter syndrome) in male patients."
+  },
+  {
+    "drug_name_generic": "galsulfase",
+    "drug_name_brand": "Naglazyme",
+    "chembl_id": "CHEMBL1201614",
+    "drugbank_id": "DB01270",
+    "mechanism_hint": "enzyme_replacement",
+    "gene_hints": ["ARSB"],
+    "is_investigational": false,
+    "notes": "Recombinant human N-acetylgalactosamine 4-sulfatase; approved 2005-05-31 for MPS VI (Maroteaux-Lamy syndrome)."
+  },
+  {
+    "drug_name_generic": "elosulfase alfa",
+    "drug_name_brand": "Vimizim",
+    "chembl_id": null,
+    "drugbank_id": "DB09354",
+    "mechanism_hint": "enzyme_replacement",
+    "gene_hints": ["GALNS"],
+    "is_investigational": false,
+    "notes": "Recombinant human N-acetylgalactosamine-6-sulfatase; approved 2014-02-14 for MPS IVA (Morquio A syndrome)."
+  },
+  {
+    "drug_name_generic": "vestronidase alfa",
+    "drug_name_brand": "Mepsevii",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "enzyme_replacement",
+    "gene_hints": ["GUSB"],
+    "is_investigational": false,
+    "notes": "Recombinant human beta-glucuronidase; approved 2017-11-15 for MPS VII (Sly syndrome)."
+  },
+  {
+    "drug_name_generic": "cerliponase alfa",
+    "drug_name_brand": "Brineura",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "enzyme_replacement",
+    "gene_hints": ["CLN2", "TPP1"],
+    "is_investigational": false,
+    "notes": "Recombinant human tripeptidyl peptidase 1 (TPP1) administered intraventricularly; approved 2017-04-27 for CLN2 neuronal ceroid lipofuscinosis."
+  },
+  {
+    "drug_name_generic": "sebelipase alfa",
+    "drug_name_brand": "Kanuma",
+    "chembl_id": null,
+    "drugbank_id": "DB11632",
+    "mechanism_hint": "enzyme_replacement",
+    "gene_hints": ["LIPA"],
+    "is_investigational": false,
+    "notes": "Recombinant human lysosomal acid lipase produced in transgenic eggs; approved 2015-12-08 for LAL deficiency (Wolman disease and CESD)."
+  },
+  {
+    "drug_name_generic": "asfotase alfa",
+    "drug_name_brand": "Strensiq",
+    "chembl_id": null,
+    "drugbank_id": "DB10050",
+    "mechanism_hint": "enzyme_replacement",
+    "gene_hints": ["ALPL"],
+    "is_investigational": false,
+    "notes": "Bone-targeted recombinant human tissue-nonspecific alkaline phosphatase fusion protein; approved 2015-10-23 for perinatal, infantile, and juvenile-onset hypophosphatasia."
+  },
+  {
+    "drug_name_generic": "migalastat",
+    "drug_name_brand": "Galafold",
+    "chembl_id": "CHEMBL2180697",
+    "drugbank_id": "DB11988",
+    "mechanism_hint": "chaperone",
+    "gene_hints": ["GLA"],
+    "is_investigational": false,
+    "notes": "Iminosugar pharmacological chaperone that binds and stabilises misfolded GLA variants amenable to chaperoning; approved 2018-08-10 for Fabry disease."
+  },
+  {
+    "drug_name_generic": "sapropterin",
+    "drug_name_brand": "Kuvan",
+    "chembl_id": "CHEMBL1201566",
+    "drugbank_id": "DB00360",
+    "mechanism_hint": "chaperone",
+    "gene_hints": ["PAH"],
+    "is_investigational": false,
+    "notes": "Synthetic tetrahydrobiopterin (BH4), cofactor for PAH; acts as pharmacological chaperone for BH4-responsive PAH variants. Approved 2007-12-16 for PKU."
+  },
+  {
+    "drug_name_generic": "lonafarnib",
+    "drug_name_brand": "Zokinvy",
+    "chembl_id": "CHEMBL409597",
+    "drugbank_id": "DB15738",
+    "mechanism_hint": "inhibitor",
+    "gene_hints": ["LMNA", "ZMPSTE24"],
+    "is_investigational": false,
+    "notes": "Farnesyltransferase inhibitor; approved 2020-11-20 for Hutchinson-Gilford progeria syndrome and processing-deficient progeroid laminopathies. Prevents farnesylation of progerin."
+  },
+  {
+    "drug_name_generic": "risdiplam",
+    "drug_name_brand": "Evrysdi",
+    "chembl_id": "CHEMBL4523582",
+    "drugbank_id": "DB15685",
+    "mechanism_hint": "modulator",
+    "gene_hints": ["SMN1", "SMN2"],
+    "is_investigational": false,
+    "notes": "Oral SMN2 splicing modifier; approved 2020-08-07 for SMA across all ages and types. Stabilises SMN2 exon 7 inclusion by interacting with U1-snRNP and SRSF1."
+  },
+  {
+    "drug_name_generic": "burosumab",
+    "drug_name_brand": "Crysvita",
+    "chembl_id": "CHEMBL4297942",
+    "drugbank_id": "DB13703",
+    "mechanism_hint": "monoclonal_antibody",
+    "gene_hints": ["FGF23", "PHEX"],
+    "is_investigational": false,
+    "notes": "Anti-FGF23 monoclonal antibody (IgG1); approved 2018-04-17 for X-linked hypophosphatemia. Blocks FGF23-mediated phosphate wasting."
+  },
+  {
+    "drug_name_generic": "canakinumab",
+    "drug_name_brand": "Ilaris",
+    "chembl_id": "CHEMBL1201827",
+    "drugbank_id": "DB06679",
+    "mechanism_hint": "monoclonal_antibody",
+    "gene_hints": ["NLRP3", "IL1B"],
+    "is_investigational": false,
+    "notes": "Anti-IL-1β fully human IgG1 mAb; approved 2009-06-17 for cryopyrin-associated periodic syndromes (CAPS) caused by NLRP3 gain-of-function variants."
+  },
+  {
+    "drug_name_generic": "sutimlimab",
+    "drug_name_brand": "Enjaymo",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "monoclonal_antibody",
+    "gene_hints": ["C1S"],
+    "is_investigational": false,
+    "notes": "Anti-C1s IgG4 mAb; first FDA-approved treatment for cold agglutinin disease (CAD), 2022-02-04. Selectively inhibits classical complement pathway."
+  },
+  {
+    "drug_name_generic": "voxelotor",
+    "drug_name_brand": "Oxbryta",
+    "chembl_id": "CHEMBL4297909",
+    "drugbank_id": "DB15736",
+    "mechanism_hint": "modulator",
+    "gene_hints": ["HBB"],
+    "is_investigational": false,
+    "notes": "HbS polymerization inhibitor; approved 2019-11-25 for sickle cell disease. VOLUNTARILY WITHDRAWN from all markets by Pfizer 2024-09-25 following inconclusive phase 3 data."
+  },
+  {
+    "drug_name_generic": "setmelanotide",
+    "drug_name_brand": "Imcivree",
+    "chembl_id": "CHEMBL4297848",
+    "drugbank_id": "DB16219",
+    "mechanism_hint": "agonist",
+    "gene_hints": ["POMC", "PCSK1", "LEPR", "MC4R"],
+    "is_investigational": false,
+    "notes": "MC4R agonist peptide; approved 2020-11-27 for chronic weight management in adults/children ≥6y with POMC, PCSK1, or LEPR deficiency obesity."
+  },
+  {
+    "drug_name_generic": "pegvaliase",
+    "drug_name_brand": "Palynziq",
+    "chembl_id": null,
+    "drugbank_id": "DB13910",
+    "mechanism_hint": "enzyme_replacement",
+    "gene_hints": ["PAH"],
+    "is_investigational": false,
+    "notes": "PEGylated recombinant Anabaena variabilis phenylalanine ammonia lyase; approved 2018-05-24 for PKU. Degrades phenylalanine as functional PAH substitute."
+  },
+  {
+    "drug_name_generic": "mavorixafor",
+    "drug_name_brand": "Xolremdi",
+    "chembl_id": "CHEMBL3707404",
+    "drugbank_id": null,
+    "mechanism_hint": "inhibitor",
+    "gene_hints": ["CXCR4"],
+    "is_investigational": false,
+    "notes": "Oral CXCR4 antagonist; approved 2024-04-26 for WHIM syndrome (gain-of-function CXCR4 variants). Restores neutrophil and lymphocyte mobilisation."
+  },
+  {
+    "drug_name_generic": "maralixibat",
+    "drug_name_brand": "Livmarli",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "inhibitor",
+    "gene_hints": ["JAG1", "SLC10A2"],
+    "is_investigational": false,
+    "notes": "Ileal bile acid transporter (IBAT/SLC10A2) inhibitor; approved 2021-09-29 for cholestatic pruritus in Alagille syndrome (JAG1/NOTCH2 mutations)."
+  },
+  {
+    "drug_name_generic": "odevixibat",
+    "drug_name_brand": "Bylvay",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "inhibitor",
+    "gene_hints": ["ATP8B1", "ABCB11", "SLC10A2"],
+    "is_investigational": false,
+    "notes": "IBAT inhibitor (SLC10A2); approved 2021-07-20 for pruritus in progressive familial intrahepatic cholestasis (PFIC) types 1 and 2."
+  },
+  {
+    "drug_name_generic": "sparsentan",
+    "drug_name_brand": "Filspari",
+    "chembl_id": "CHEMBL3548798",
+    "drugbank_id": null,
+    "mechanism_hint": "inhibitor",
+    "gene_hints": ["AGTR1", "EDNRA"],
+    "is_investigational": false,
+    "notes": "Dual endothelin type-A (ETa) and angiotensin II type-1 (AT1) receptor antagonist; approved 2023-02-17 for IgA nephropathy. Reduces proteinuria."
+  },
+  {
+    "drug_name_generic": "Ekterly",
+    "drug_name_brand": "Ekterly",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": null,
+    "gene_hints": [],
+    "is_investigational": false,
+    "needs_manual_verification": true,
+    "notes": "Drug identity unconfirmed; included per user seed list. Reviewer must verify brand/generic name, FDA approval status, and mechanism before this record can be validated."
+  },
+  {
+    "drug_name_generic": "BRD4780",
+    "drug_name_brand": "BRD4780",
+    "chembl_id": null,
+    "drugbank_id": null,
+    "mechanism_hint": "chaperone",
+    "gene_hints": ["MUC1"],
+    "is_investigational": true,
+    "needs_manual_verification": false,
+    "notes": "Small-molecule chaperone that clears misfolded MUC1 frameshift protein (MUC1-fs) from the ER via TMED9; identified by Bhatt lab (Harvard). Not FDA-approved. PMID: 33627739 (Science 2021)."
+  }
+]

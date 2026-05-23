@@ -1,0 +1,49 @@
+{
+  "default": {
+    "description": "A curated, human-reviewed dataset of (gene → variant_context → FDA-approved drug → molecular_target → mechanism) tuples for rare diseases.",
+    "citation": "@dataset{shenoy2025fda_strategy_triples,\n  author    = {Shenoy, Amit},\n  title     = {{FDA Strategy Triples}},\n  year      = {2025},\n  version   = {0.1.0},\n  url       = {https://github.com/ashenoy00000/fda-strategy-triples},\n  license   = {CC-BY-4.0}\n}",
+    "homepage": "https://github.com/ashenoy00000/fda-strategy-triples",
+    "license": "cc-by-4.0",
+    "features": {
+      "id":                    {"dtype": "string",  "_type": "Value"},
+      "schema_version":        {"dtype": "string",  "_type": "Value"},
+      "drug_name_generic":     {"dtype": "string",  "_type": "Value"},
+      "drug_name_brand":       {"dtype": "string",  "_type": "Value"},
+      "approval_date":         {"dtype": "string",  "_type": "Value"},
+      "indicated_disease":     {"dtype": "string",  "_type": "Value"},
+      "associated_genes":      {"feature": {"dtype": "string", "_type": "Value"}, "_type": "Sequence"},
+      "variant_context":       {"dtype": "string",  "_type": "Value"},
+      "molecular_target":      {"dtype": "string",  "_type": "Value"},
+      "mechanism_class": {
+        "names": ["inhibitor","agonist","chaperone","ASO","siRNA","gene_therapy","enzyme_replacement","monoclonal_antibody","modulator","other"],
+        "_type": "ClassLabel"
+      },
+      "mechanism_summary":     {"dtype": "string",  "_type": "Value"},
+      "primary_citation_pmid": {"dtype": "string",  "_type": "Value"},
+      "source_apis":           {"feature": {"dtype": "string", "_type": "Value"}, "_type": "Sequence"},
+      "fetch_timestamp":       {"dtype": "string",  "_type": "Value"},
+      "prompt_version":        {"dtype": "string",  "_type": "Value"},
+      "extractor_model":       {"dtype": "string",  "_type": "Value"},
+      "chembl_validated":      {"dtype": "bool",    "_type": "Value"},
+      "drugbank_validated":    {"dtype": "bool",    "_type": "Value"},
+      "discrepancies":         {"feature": {"dtype": "string", "_type": "Value"}, "_type": "Sequence"},
+      "reviewer":              {"dtype": "string",  "_type": "Value"},
+      "reviewed_at":           {"dtype": "string",  "_type": "Value"},
+      "validated":             {"dtype": "bool",    "_type": "Value"},
+      "raw_label_url":         {"dtype": "string",  "_type": "Value"},
+      "confidence_score":      {"dtype": "float32", "_type": "Value"}
+    },
+    "splits": {
+      "train": {
+        "name": "train",
+        "num_bytes": 51200,
+        "num_examples": 10,
+        "dataset_name": "fda_strategy_triples"
+      }
+    },
+    "download_checksums": {},
+    "download_size": 51200,
+    "dataset_size": 51200,
+    "size_in_bytes": 102400
+  }
+}
