@@ -65,10 +65,10 @@ fda-review   = "fda_strategy_triples.validate.reviewer_cli:app"
 fda-export   = "fda_strategy_triples.export.to_jsonl:app"
 
 [project.urls]
-Repository    = "https://github.com/ashenoy00000/fda-strategy-triples"
-"Bug Tracker" = "https://github.com/ashenoy00000/fda-strategy-triples/issues"
-Changelog     = "https://github.com/ashenoy00000/fda-strategy-triples/blob/main/CHANGELOG.md"
-"Dataset Card" = "https://github.com/ashenoy00000/fda-strategy-triples/blob/main/data/DATASET_CARD.md"
+Repository    = "https://github.com/xX-its-amit-Xx/fda-strategy-triples"
+"Bug Tracker" = "https://github.com/xX-its-amit-Xx/fda-strategy-triples/issues"
+Changelog     = "https://github.com/xX-its-amit-Xx/fda-strategy-triples/blob/main/CHANGELOG.md"
+"Dataset Card" = "https://github.com/xX-its-amit-Xx/fda-strategy-triples/blob/main/data/DATASET_CARD.md"
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -14,11 +14,11 @@ identifiers:
       Placeholder DOI — will be updated when the dataset is archived on Zenodo.
       Do not use this DOI for citation until confirmed.
   - type: url
-    value: https://github.com/ashenoy00000/fda-strategy-triples
+    value: https://github.com/xX-its-amit-Xx/fda-strategy-triples
     description: GitHub repository
-repository-code: https://github.com/ashenoy00000/fda-strategy-triples
-url: https://github.com/ashenoy00000/fda-strategy-triples
-repository: https://github.com/ashenoy00000/fda-strategy-triples
+repository-code: https://github.com/xX-its-amit-Xx/fda-strategy-triples
+url: https://github.com/xX-its-amit-Xx/fda-strategy-triples
+repository: https://github.com/xX-its-amit-Xx/fda-strategy-triples
 abstract: >
   A curated, human-reviewed dataset of (gene → variant_context → FDA-approved drug →
   molecular_target → mechanism) tuples for rare diseases. Each record is extracted

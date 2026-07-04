@@ -1,8 +1,8 @@
 {
   "default": {
     "description": "A curated, human-reviewed dataset of (gene → variant_context → FDA-approved drug → molecular_target → mechanism) tuples for rare diseases.",
-    "citation": "@dataset{shenoy2025fda_strategy_triples,\n  author    = {Shenoy, Amit},\n  title     = {{FDA Strategy Triples}},\n  year      = {2025},\n  version   = {0.1.0},\n  url       = {https://github.com/ashenoy00000/fda-strategy-triples},\n  license   = {CC-BY-4.0}\n}",
-    "homepage": "https://github.com/ashenoy00000/fda-strategy-triples",
+    "citation": "@dataset{shenoy2025fda_strategy_triples,\n  author    = {Shenoy, Amit},\n  title     = {{FDA Strategy Triples}},\n  year      = {2025},\n  version   = {0.1.0},\n  url       = {https://github.com/xX-its-amit-Xx/fda-strategy-triples},\n  license   = {CC-BY-4.0}\n}",
+    "homepage": "https://github.com/xX-its-amit-Xx/fda-strategy-triples",
     "license": "cc-by-4.0",
     "features": {
       "id":                    {"dtype": "string",  "_type": "Value"},

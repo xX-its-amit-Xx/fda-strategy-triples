@@ -160,7 +160,7 @@ If you use this dataset, please cite:
   year      = {2025},
   publisher = {GitHub},
   version   = {0.1.0},
-  url       = {https://github.com/ashenoy00000/fda-strategy-triples},
+  url       = {https://github.com/xX-its-amit-Xx/fda-strategy-triples},
   license   = {CC-BY-4.0}
 }
 ```

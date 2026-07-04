@@ -92,7 +92,7 @@ record enters the validated dataset.
 
 ```bash
 # 1. Install
-git clone https://github.com/ashenoy00000/fda-strategy-triples
+git clone https://github.com/xX-its-amit-Xx/fda-strategy-triples
 cd fda-strategy-triples
 pip install -e ".[dev]"
 
@@ -254,7 +254,7 @@ Next 50 targets drawn from Orphanet prevalence-ranked list:
   year      = {2025},
   publisher = {GitHub},
   version   = {0.1.0},
-  url       = {https://github.com/ashenoy00000/fda-strategy-triples},
+  url       = {https://github.com/xX-its-amit-Xx/fda-strategy-triples},
   license   = {CC-BY-4.0}
 }
 ```

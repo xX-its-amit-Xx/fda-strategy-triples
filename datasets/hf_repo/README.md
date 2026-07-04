@@ -166,11 +166,11 @@ metadata.validated         → true   (required for inclusion)
   year      = {2025},
   publisher = {GitHub},
   version   = {0.1.0},
-  url       = {https://github.com/ashenoy00000/fda-strategy-triples},
+  url       = {https://github.com/xX-its-amit-Xx/fda-strategy-triples},
   license   = {CC-BY-4.0}
 }
 ```
 
 ## Source Code
 
-[github.com/ashenoy00000/fda-strategy-triples](https://github.com/ashenoy00000/fda-strategy-triples) — GPL-3.0
+[github.com/xX-its-amit-Xx/fda-strategy-triples](https://github.com/xX-its-amit-Xx/fda-strategy-triples) — GPL-3.0
